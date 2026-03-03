@@ -1,0 +1,22 @@
+{
+  "name": "jagamrt-web",
+  "version": "1.0.0",
+  "description": "JAGAMRT - Geofenced Train Station Alarm PWA",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'PWA app ready'"
+  },
+  "keywords": [
+    "train",
+    "alarm",
+    "geofence",
+    "pwa",
+    "commuter"
+  ],
+  "author": "JAGAMRT",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
